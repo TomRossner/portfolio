@@ -1,0 +1,32 @@
+@import './main.styles.scss';
+
+.project-section{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+
+    .project-link{
+        text-decoration: none;
+        background-color: $blue;
+        padding: 0.3em 1em;
+        color: $light;
+        width: fit-content;
+        border-radius: 3px;
+        transition: background-color 0.15s, scale 0.1s;
+
+        &:hover{
+            background-color: $pale-blue;
+        }
+
+        &:active{
+            scale: 0.9;
+        }
+    }
+}

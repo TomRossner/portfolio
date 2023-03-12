@@ -1,13 +1,14 @@
 //Components imports
 import NavBar from './components/NavBar';
 import Home from './components/Home';
+import Projects from './components/Projects';
 import { Route, Routes } from 'react-router-dom';
 
 // Styles imports
 import './styles/main.styles.scss';
 import './styles/navbar.styles.scss';
 import './styles/footer.styles.scss';
-import Projects from './components/Projects';
+import './styles/projects.styles.scss';
 
 function App() {
   return (

@@ -6,6 +6,7 @@ const Home = () => {
     const handleClick = () => {
         navigate('/projects');
     }
+    
   return (
     <div className='inner-container'>
         <h2>Hello.</h2>
